@@ -1,7 +1,8 @@
 ### Description
 <div>
     <p>
-        User interface for <a href="https://github.com/izemaghilas/dbms">DBMS</a>, a simple DataBase Managenent System builded using JAVA.
+        User interface for <a href="https://github.com/izemaghilas/dbms">DBMS</a>, a simple DataBase Managenent System builded using JAVA.<br/>
+        <a href="https://izemaghilas.github.io/dbms-ui">Try it</a>. 
     </p>
 </div>
 
