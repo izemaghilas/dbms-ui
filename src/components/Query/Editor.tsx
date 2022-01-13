@@ -7,7 +7,7 @@ import "./styles/Editor.css";
 const Editor: React.FC = (): ReactElement => {
     return(
         <div className="query-editor">
-            <textarea className="editor-line-number" cols={2} value=">" readOnly></textarea>
+            <textarea className="editor-line-number" cols={2} rows={1} value=">" readOnly></textarea>
             <AppContext.Consumer>
                 {value=>(
                     <textarea 
@@ -24,12 +24,10 @@ const Editor: React.FC = (): ReactElement => {
                     <BsPlayFill 
                         style={{
                             alignSelf: "flex-start",
-                            marginTop: "-20px",
-                            marginRight: "20px",
                             cursor: "pointer",
                         }}
                         title="execute query"
-                        size={60} 
+                        size={50} 
                         color="#c4c4c4"
                         onClick={value.executeQuery}
                     />
