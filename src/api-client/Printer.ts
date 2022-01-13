@@ -84,10 +84,11 @@ export default class Printer {
     private static buildRows(columns: Column[], numberOfRows: number): string {
         let rows: string = "";
         for(let rowIndex=0; rowIndex<numberOfRows; rowIndex++){
-            columns.forEach(column=>{
+            for(let i=0; i<columns.length; i++){
+                let column = columns[i];
                 let slotValue: string = column.getRows()[rowIndex];
                 rows += this.buildRow(slotValue, column.getLength())+" ";
-            });
+            }
             rows += "|\n";
         }
         return rows;

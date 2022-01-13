@@ -24,7 +24,7 @@ export default class Parser {
         let str: string = "";
         for(let i=0; i < query.length; i++){
             if(query[i] === " "){
-                if(str != ""){
+                if(str !== ""){
                     parts.push(str);
                     str = "";
                 }
@@ -34,7 +34,7 @@ export default class Parser {
             }
         }
 
-        if(str != ""){
+        if(str !== ""){
             parts.push(str);
             str="";
         }

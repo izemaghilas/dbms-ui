@@ -9,7 +9,12 @@ const Header: React.FC = ():ReactElement => {
             <div className="dbms-title">
                 <span>DBMS</span>
             </div>
-            <a href="#" className="dbms-source-code">
+            <a 
+                href="https://github.com/izemaghilas/dbms-ui" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="dbms-source-code"
+            >
                 <BsGithub
                     style={{
                         alignSelf: "center"
