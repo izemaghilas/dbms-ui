@@ -22,5 +22,5 @@
 }
 .editor-input {
     width: 95%;
-    overflow: auto;
+    overflow: hidden;
 }
