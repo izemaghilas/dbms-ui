@@ -1,0 +1,23 @@
+@keyframes spinner {
+    0% {
+        transform: translate3d(-50%, -50%, 0) rotate(0deg);
+    }
+    100% {
+        transform: translate3d(-50%, -50%, 0) rotate(360deg);
+    }
+}
+
+.activity-indicator {
+    align-self: center;
+    margin-top: 30%;
+    animation: 1.5s linear infinite spinner;
+    animation-play-state: inherit;
+    border: solid 5px #202327;
+    border-bottom-color: #c4c4c4;
+    border-radius: 50%;
+    content: "";
+    height: 80px;
+    width: 80px;
+    transform: translate3d(-50%, -50%, 0);
+    will-change: transform;
+}

@@ -1,0 +1,49 @@
+.dbms-terminal-title {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.dbms-ascii-arts {
+    align-self: center;
+    color: #c4c4c4;
+    line-height: 0.8;
+    font-weight: 900;
+    font-size: medium;
+    cursor: default;
+}
+
+.dbms-terminal-query-language {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.dbms-terminal-query-language h4 {
+    color: #c4c4c4;
+    font-style: italic;
+    text-decoration: underline;
+    cursor: default;
+}
+
+.dbms-terminal-query-language-doc {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+.dbms-terminal-query-language-doc pre {
+    line-height: 0;
+    color: #c4c4c4;
+    font-size: medium;
+    cursor: default;
+}
+
+.dbms-terminal-data-types {
+    margin-left: 40px;
+}
+.dbms-terminal-data-types pre {
+    color: #c4c4c4;
+    font-size: medium;
+    font-weight: bold;
+    cursor: default;
+}
