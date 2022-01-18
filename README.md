@@ -8,7 +8,7 @@
 
 ### Runing
     $ git clone git@github.com:izemaghilas/dbms-frontend.git
-    $ cd dbms-frontend
+    $ cd dbms-ui
     $ npm install
     $ npm start
 
