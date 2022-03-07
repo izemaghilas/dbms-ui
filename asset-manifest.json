@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dbms-ui/static/css/main.51eb03f8.css",
+    "main.js": "/dbms-ui/static/js/main.d554ed0a.js",
+    "index.html": "/dbms-ui/index.html",
+    "main.51eb03f8.css.map": "/dbms-ui/static/css/main.51eb03f8.css.map",
+    "main.d554ed0a.js.map": "/dbms-ui/static/js/main.d554ed0a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51eb03f8.css",
+    "static/js/main.d554ed0a.js"
+  ]
+}
